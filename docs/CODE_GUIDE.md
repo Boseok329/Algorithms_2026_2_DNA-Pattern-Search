@@ -30,7 +30,7 @@ python -B -X utf8 code/verify_results.py results/20261104
 python -B -X utf8 code/run_benchmark.py --repeats 5
 
 # Install the optional dependency before generating either set of figures.
-python -m pip install -r requirements.txt
+python -m pip install matplotlib
 
 # Rebuild figures and HTML from saved measurements.
 python -B -X utf8 code/render_results.py results/20261104
@@ -72,7 +72,7 @@ The original KMP file's standalone test entry point imports the historical `test
 - **`dataset_tools/`** contains input-generation and validation tools. `experiment_1.py`, `experiment_2.py`, and `experiment_3.py` generate individual experiments; `dataset_common.py` supplies shared routines. `verify_datasets.py` checks the generated package, and `export_shared_datasets.py` produces the text-file layout used for sharing. See the commands in [Data provenance and regeneration](DATA.md).
 - **`data/`** holds the normalized *E. coli* sequence and its source metadata. **`inputs/`** holds the frozen text and pattern files used by the benchmark. **`reference/`** holds the condition definitions and complete expected-position lists.
 - **`results/20261104/`** holds the historical measurement tables, environment record, verification records, and figures. Later benchmark runs belong in separate result folders.
-- **`snapshot_manifest.json`** records the frozen file paths, sizes, and SHA-256 hashes. [`source_provenance.json`](source_provenance.json) records source/package hash comparisons. [Packaging notes](PACKAGING.md) explain the difference between historical measurement artifacts and portable repository scripts.
+- **`reference/snapshot_manifest.json`** records the frozen file paths, sizes, and SHA-256 hashes. [`source_provenance.json`](source_provenance.json) records source/package hash comparisons. [Packaging notes](PACKAGING.md) explain the difference between historical measurement artifacts and portable repository scripts.
 
 ## When the code was used
 
@@ -85,4 +85,4 @@ The dates below describe recorded project activity. They do not establish the or
 | **November 8, 2026** | The GitHub package was assembled and missing files were restored from the preserved experiment. | The packaging record documents restoration of 72 missing snapshot files and the archived CSV files and figures. This was a packaging and documentation step; timings were not rerun. |
 | **November 15, 2026** | English documentation and code-navigation material were prepared for GitHub publication. | This guide and the supporting English documents describe the existing implementation and measurements. This date is a documentation revision date, not a new measurement date or a claim about the original authorship date of the code. |
 
-The repository includes the [genome metadata](../data/NC_000913.3_metadata.json), [snapshot manifest](../snapshot_manifest.json), [integrated-run metadata](../results/20261104/metadata.json), and [packaging record](PACKAGING.md). The earlier standalone Naive run remains a separate project record; its timings are not mixed into the three-algorithm comparison.
+The repository includes the [genome metadata](../data/NC_000913.3_metadata.json), [snapshot manifest](../reference/snapshot_manifest.json), [integrated-run metadata](../results/20261104/metadata.json), and [packaging record](PACKAGING.md). The earlier standalone Naive run remains a separate project record; its timings are not mixed into the three-algorithm comparison.

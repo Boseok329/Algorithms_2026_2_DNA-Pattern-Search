@@ -93,8 +93,8 @@
   "package_code_sha256": {
     "code/kmp_timed.py": "1fca30d999deb16985caeb59d127eb5879a2571a89cfea2599afba8fbd351cf1",
     "code/render_results.py": "9e5df8c9e9969dc8481fbbcb16e9dc3b7822424469a8a0a59750776990690a2c",
-    "code/run_benchmark.py": "e524a41bbe1ad9a053a5e0bb0affe8d2a779ffa66d34ff6f9fb9f5659f7ca488",
-    "code/verify_results.py": "2a3b22da820c8764d66958fc23dd56a8c387ef24e993d8c976ac84aafa3103a9",
+    "code/run_benchmark.py": "a7f73adad222ab81918b3f7a9f73a50f291d23e349125881afeb3297517e22e2",
+    "code/verify_results.py": "5c21f0f12ae6f0ef718106c2149640c0f90448a1feefe00f95d8ef4576e99985",
     "originals/boyer_moore.py": "07b88e4917b87f4a654839e0e23af5edeea9de541cc05eefd30310533b3ce874",
     "originals/kmp.py": "94c97a4c245f27c8cd1e16e9db1494c52f6325680e9f1bb778f6dce48401f37a",
     "originals/naive.py": "994d4ed43c564a9cf5bf011e3b1be8e8aa205cb69a19b23df1d08bbad29c39e9"

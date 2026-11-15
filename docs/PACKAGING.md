@@ -9,7 +9,7 @@ The archived experiment was measured on November 4, 2026. The following files re
 - Ninety input text files and six condition/reference JSON files.
 - `conditions.csv`, `runs.csv`, and `summary.csv` under `results/20261104/`.
 
-The three implementations, ninety inputs, and six reference files form the 99-file snapshot checked by `snapshot_manifest.json`. Original source comments and interfaces are retained for this comparison. English explanations of their APIs and use are provided in [CODE_GUIDE.md](CODE_GUIDE.md).
+The three implementations, ninety inputs, and six reference files form the 99-file snapshot checked by `reference/snapshot_manifest.json`. Original source comments and interfaces are retained for this comparison. English explanations of their APIs and use are provided in [CODE_GUIDE.md](CODE_GUIDE.md).
 
 ## Portable benchmark package
 
@@ -35,3 +35,9 @@ The publication revision separates the personal Naive report (`README.md`) from 
 - The original plots remain under `results/20261104/charts/`.
 
 These additions do not replace the archived implementations or measurements. They are documentation and presentation materials prepared after the experiment.
+
+## November 16, 2026 repository organization
+
+The repository was renamed to `Algorithms_2026_2_DNA-Pattern-Search`. The unchanged snapshot manifest moved into `reference/`, and the runner and verifier now read it there. The optional figure dependency is installed directly with `python -m pip install matplotlib`.
+
+The portable `package_code_sha256` map and corresponding provenance hashes were updated for the path change. Historical `code_sha256`, `input_manifest_sha256`, the original verification record, and all measurement CSVs remain unchanged.

@@ -214,7 +214,7 @@ The recorded data consist of [condition summaries](results/20261104/summary.csv)
 
 **Python 3.10 or later** is required. The search implementations, common benchmark, and result verifier use only Python standard-library modules. No additional packages are required for the commands below. The archived measurements were collected with Python 3.14.6; the minimum version required to run the code is separate from that measured environment.
 
-Reproduction requires the included `originals/`, `inputs/`, `reference/`, and `snapshot_manifest.json` files. The original algorithm files use different function signatures and standalone entry points, so the common runner provides the interface for comparing all three implementations.
+Reproduction requires the included `originals/`, `inputs/`, `reference/`, and `reference/snapshot_manifest.json` files. The original algorithm files use different function signatures and standalone entry points, so the common runner provides the interface for comparing all three implementations.
 
 Run the following commands from the repository root. Use `python3` instead of `python` if that is the Python 3 command on the local system. The `-X utf8` option enables UTF-8 text handling. Validation uses assertions, so the commands should be run without `-O` or `-OO`.
 
@@ -246,13 +246,13 @@ Runtimes may differ from the November 4 results because of the machine, Python v
 
 ## 7. Team and contributions
 
-The table summarizes the main responsibilities. Discussion and review were shared team activities. Detailed Naive implementation and individual work are documented in the linked README. The other team members' repository URLs have not been provided.
+The table summarizes the main responsibilities. Discussion and review were shared team activities. Detailed Naive implementation and individual work are documented in the linked README. Seokjin Lee's link leads to his GitHub profile; his project repository and Seonha Baek's link have not yet been provided.
 
-| Contributor | Individual work | Main responsibility |
+| Contributor | Individual work / GitHub | Main responsibility |
 |:--|:--|:--|
 | Boseok Kim (김보석) | [Naive implementation and individual contribution](README.md) | Naive implementation; shared data and benchmark; presentation and video editing. |
 | Seonha Baek (백선하) | Not provided | KMP implementation; correctness testing and result analysis. |
-| Seokjin Lee (이석진) | Not provided | Boyer–Moore implementation; shift and overlap checks and runtime analysis. |
+| Seokjin Lee (이석진) | [GitHub profile · GaNakDa](https://github.com/GaNakDa) | Boyer–Moore implementation; shift and overlap checks and runtime analysis. |
 
 Each member contributed the explanation, script, and recording for their assigned presentation sections.
 

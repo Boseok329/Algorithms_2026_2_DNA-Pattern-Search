@@ -100,7 +100,7 @@ def main():
         pre, search, total = (int(r[f]) for f in ('preprocessing_comparisons', 'search_comparisons', 'total_comparisons'))
         assert pre >= 0 and search >= 0 and pre + search == total
         assert int(r['peak_python_bytes']) >= int(r['retained_python_bytes']) >= 0
-    for item in load_json(ROOT / 'snapshot_manifest.json')['files']:
+    for item in load_json(ROOT / 'reference' / 'snapshot_manifest.json')['files']:
         assert sha(ROOT / item['snapshot']) == item['sha256']
     for path, digest in meta.get('package_code_sha256', meta['code_sha256']).items():
         assert sha(ROOT / path.replace('\\', '/')) == digest, path

@@ -16,13 +16,13 @@
     {
       "file": "code/run_benchmark.py",
       "source_sha256": "1799d372442b70b369b1e160b20f6faad0c6797321008ecc29173201793d5b3e",
-      "package_sha256": "e524a41bbe1ad9a053a5e0bb0affe8d2a779ffa66d34ff6f9fb9f5659f7ca488",
+      "package_sha256": "a7f73adad222ab81918b3f7a9f73a50f291d23e349125881afeb3297517e22e2",
       "changed": true
     },
     {
       "file": "code/verify_results.py",
       "source_sha256": "3eaa4d076c34f6756da3fa0e2bb4747dedfdfa5b85ec2d89244513e229c89084",
-      "package_sha256": "2a3b22da820c8764d66958fc23dd56a8c387ef24e993d8c976ac84aafa3103a9",
+      "package_sha256": "5c21f0f12ae6f0ef718106c2149640c0f90448a1feefe00f95d8ef4576e99985",
       "changed": true
     },
     {
@@ -118,7 +118,7 @@
     {
       "file": "results/20261104/metadata.json",
       "source_sha256": "b864a71bb54920fd16e5d1c5f4d58fd67f1a8d0dc680d09e8869e07003419a78",
-      "package_sha256": "7cbdd187418b9dfd7c9e3b7ba6a018f2abec6ced2610df8d5f0378962ac2a76e",
+      "package_sha256": "dbb570201c8f5f03f8e5fe6c40714def37d400baf3803e5ba2dbdd64baf23c5c",
       "changed": true
     },
     {
@@ -134,7 +134,7 @@
       "changed": false
     },
     {
-      "file": "snapshot_manifest.json",
+      "file": "reference/snapshot_manifest.json",
       "source_sha256": "406dd8c2d393b4258b1b25e218fe804ee0773444034abc82873986a187197c28",
       "package_sha256": "181daba1a287a1383b8f64ba11f0bc8f8c9aa89d6d28a4f885995120c71ee90b",
       "changed": true

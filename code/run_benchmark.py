@@ -80,7 +80,7 @@ def reference_positions(text, pattern):
 
 
 def load_cases():
-    manifest = load_json(ROOT / 'snapshot_manifest.json')
+    manifest = load_json(ROOT / 'reference' / 'snapshot_manifest.json')
     for item in manifest['files']:
         if sha(ROOT / item['snapshot']) != item['sha256']:
             raise ValueError(f"보존 사본 해시 불일치: {item['snapshot']}")
@@ -126,7 +126,7 @@ def verify(positions, case, algorithm, phase):
 
 def check_originals():
     """Verify the three preserved implementations inside this repository."""
-    files = [item for item in load_json(ROOT / 'snapshot_manifest.json')['files']
+    files = [item for item in load_json(ROOT / 'reference' / 'snapshot_manifest.json')['files']
              if item['snapshot'].startswith('originals/')]
     changed = [item['snapshot'] for item in files
                if not (ROOT / item['snapshot']).is_file()
@@ -176,7 +176,7 @@ def main():
                     input_policy='exact frozen ASCII ACGT bytes, nonempty pattern, zero-based overlapping positions',
                     kmp_timing_variant='original LPS/search control flow with comparison counter operations removed; original kmp.py used for counted run',
                     code_sha256={p.relative_to(ROOT).as_posix(): sha(p) for folder in ('code', 'originals') for p in sorted((ROOT / folder).glob('*.py'))},
-                    input_manifest_sha256=sha(ROOT / 'snapshot_manifest.json'),
+                    input_manifest_sha256=sha(ROOT / 'reference' / 'snapshot_manifest.json'),
                     original_integrity_before=check_originals())
     if not metadata['original_integrity_before']['unchanged']:
         raise ValueError('측정 전 원본 무결성 확인 실패')
