@@ -193,4 +193,4 @@ The [team report](TEAM_REPORT.md#6-implementation-and-reproducibility) provides 
 - **Genomic input:** [NCBI RefSeq NC_000913.3](https://www.ncbi.nlm.nih.gov/nuccore/NC_000913.3), *Escherichia coli* K-12 MG1655. See [data provenance](docs/DATA.md).
 - **Memory measurement:** Python documentation for [`tracemalloc`](https://docs.python.org/3.14/library/tracemalloc.html).
 - **Measurements:** [Summary data](results/20261104/summary.csv), [individual runs](results/20261104/runs.csv), and [condition definitions](results/20261104/conditions.csv), recorded on November 4, 2026. The figures above filter the saved data to Naive; their source is [the plotting script](code/plot_figures.py).
-- **AI assistance:** OpenAI Codex assisted with data preparation, benchmark tooling, verification, figure generation, and report and repository documentation. Archived source implementations and measurement CSVs are retained unchanged; later explanatory materials are identified separately in the code guide.
+- **AI assistance:** OpenAI Codex assisted with data preparation, benchmark tooling, verification, figure generation, and report and repository documentation. 
