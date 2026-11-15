@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "accession_version": "NC_000913.3",
+  "organism": "Escherichia coli str. K-12 substr. MG1655",
+  "record_url": "https://www.ncbi.nlm.nih.gov/nuccore/NC_000913.3",
+  "download_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_000913.3&rettype=fasta&retmode=text",
+  "retrieved_at_utc": "2026-11-03T07:56:17.005Z",
+  "preparation_date_kst": "2026-11-03",
+  "raw_fasta": {
+    "file": "NC_000913.3.fasta",
+    "bytes": 4708035,
+    "sha256": "6b195feda4c66140f6762742eb8b30c2652f02b45878b174f5b00ef85ecc95d7",
+    "header": ">NC_000913.3 Escherichia coli str. K-12 substr. MG1655, complete genome",
+    "records": 1,
+    "included_in_repository": false
+  },
+  "normalized_sequence": {
+    "file": "NC_000913.3_sequence.txt",
+    "encoding": "ASCII",
+    "newline_at_end": false,
+    "length_bp": 4641652,
+    "sha256": "e999dceccb76562d40e49a10d9e6d4cf1c05d184f4f80b92bb32d4a2420c11d0",
+    "counts": {
+      "A": 1142742,
+      "C": 1180091,
+      "G": 1177437,
+      "T": 1141382
+    },
+    "ambiguous_bases": 0,
+    "transformation": "Remove FASTA header and whitespace; uppercase remaining letters; preserve all bases and their order.",
+    "path_relative_to_repository": "data/NC_000913.3_sequence.txt"
+  },
+  "benchmark_scope": {
+    "matching": "Exact, case-normalized, forward stored strand only; return every match including overlaps",
+    "indexing": "zero-based",
+    "reference_topology": "circular",
+    "text_treatment": "linear string; do not append sequence start after end; no circular-boundary or reverse-complement matching"
+  },
+  "packaging_note": "Source record from 2026-11-03; obsolete workflow status and unused proposal examples removed. FASTA is referenced, normalized sequence is included."
+}

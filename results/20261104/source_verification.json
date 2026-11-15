@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "algorithm_cases": 333,
+  "timed_runs": 1665,
+  "counts_and_memory_rows": 333,
+  "exact_position_hashes_verified": 333,
+  "statistics_recomputed": true,
+  "balanced_algorithm_order": true,
+  "original_integrity": {
+    "checked_files": 159,
+    "changed_or_missing": [],
+    "added_files": [],
+    "unchanged": true
+  },
+  "result_files_sha256": {
+    "conditions.csv": "37a8c1aa9596f9481ebfbcd185ad23c42154186b219823b6fee9406cdd16e52f",
+    "runs.csv": "317e15e1e6359d0bc794a31c1eae37d67d9bb211c3628530820418e9fc6fb96f",
+    "summary.csv": "a43aa645633a0f686a1e68c259a87a0e9ab8901b1006ee3abe1521b5019920d9",
+    "metadata.json": "b864a71bb54920fd16e5d1c5f4d58fd67f1a8d0dc680d09e8869e07003419a78"
+  }
+}

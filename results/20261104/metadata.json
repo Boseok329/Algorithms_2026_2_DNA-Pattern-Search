@@ -1,0 +1,102 @@
+{
+  "status": "complete",
+  "phase": "complete",
+  "started_at": "2026-11-04T12:42:24.365976+09:00",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "python.exe",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "logical_cpus": 20,
+  "host": {
+    "cpu": {
+      "Name": "Intel(R) Core(TM) Ultra 7 265F",
+      "NumberOfCores": 20,
+      "NumberOfLogicalProcessors": 20
+    },
+    "system": {
+      "TotalPhysicalMemory": 33984954368
+    },
+    "power_scheme": "전원 구성표 GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (균형 조정)",
+    "background_policy": "No controlled OS isolation; other applications may affect timings; no power setting changes"
+  },
+  "algorithms": [
+    "Naive",
+    "KMP",
+    "Boyer-Moore"
+  ],
+  "cases": 111,
+  "conditions_by_experiment": {
+    "1": 30,
+    "2": 54,
+    "3": 27
+  },
+  "repeats": 5,
+  "warmups": 1,
+  "timer": "time.perf_counter_ns",
+  "time_unit": "ms",
+  "order_seed": 20261104,
+  "order_policy": "seeded shuffle of cases; cyclic algorithm order by case_index + repeat_index",
+  "timing_scope": "preprocessing + search + complete positions list; excludes file I/O, validation, counters, memory tracing, output",
+  "gc_policy": "collect outside timing once per case; disable cyclic GC for all timed calls, then restore",
+  "comparison_scope": "explicit pattern-pattern preprocessing and text-pattern search character comparisons; integer/hash operations excluded",
+  "memory_scope": "one separate tracemalloc(1) session per condition and algorithm; peak traced Python allocations during full function call, including preprocessing and output list; excludes preexisting inputs; not process RSS",
+  "memory_unit": "bytes",
+  "memory_repeats": 1,
+  "input_policy": "exact frozen ASCII ACGT bytes, nonempty pattern, zero-based overlapping positions",
+  "kmp_timing_variant": "original LPS/search control flow with comparison counter operations removed; original kmp.py used for counted run",
+  "code_sha256": {
+    "code/kmp_timed.py": "1fca30d999deb16985caeb59d127eb5879a2571a89cfea2599afba8fbd351cf1",
+    "code/render_results.py": "8a0c4f6fbb1b1d9dbc6c725ee0d3112b09747fb250ef38967feb50ac4cf17c87",
+    "code/run_benchmark.py": "1799d372442b70b369b1e160b20f6faad0c6797321008ecc29173201793d5b3e",
+    "code/verify_results.py": "3eaa4d076c34f6756da3fa0e2bb4747dedfdfa5b85ec2d89244513e229c89084",
+    "originals/boyer_moore.py": "07b88e4917b87f4a654839e0e23af5edeea9de541cc05eefd30310533b3ce874",
+    "originals/kmp.py": "94c97a4c245f27c8cd1e16e9db1494c52f6325680e9f1bb778f6dce48401f37a",
+    "originals/naive.py": "994d4ed43c564a9cf5bf011e3b1be8e8aa205cb69a19b23df1d08bbad29c39e9"
+  },
+  "input_manifest_sha256": "406dd8c2d393b4258b1b25e218fe804ee0773444034abc82873986a187197c28",
+  "original_integrity_before": {
+    "checked_files": 159,
+    "changed_or_missing": [],
+    "added_files": [],
+    "unchanged": true
+  },
+  "timing_finished_at": "2026-11-04T12:43:34.412432+09:00",
+  "timed_runs": 1665,
+  "finished_at": "2026-11-04T12:44:35.760618+09:00",
+  "verified_algorithm_cases": 333,
+  "all_positions_verified": true,
+  "counted_runs": 333,
+  "memory_runs": 333,
+  "original_integrity_after": {
+    "checked_files": 159,
+    "changed_or_missing": [],
+    "added_files": [],
+    "unchanged": true
+  },
+  "code_sha256_at_measurement": {
+    "code/kmp_timed.py": "1fca30d999deb16985caeb59d127eb5879a2571a89cfea2599afba8fbd351cf1",
+    "code/render_results.py": "3efa256264348fc6d8da56198a54cd6d391853c260a0e908bb6987b0bec924af",
+    "code/run_benchmark.py": "1799d372442b70b369b1e160b20f6faad0c6797321008ecc29173201793d5b3e",
+    "code/verify_results.py": "3eaa4d076c34f6756da3fa0e2bb4747dedfdfa5b85ec2d89244513e229c89084",
+    "originals/boyer_moore.py": "07b88e4917b87f4a654839e0e23af5edeea9de541cc05eefd30310533b3ce874",
+    "originals/kmp.py": "94c97a4c245f27c8cd1e16e9db1494c52f6325680e9f1bb778f6dce48401f37a",
+    "originals/naive.py": "994d4ed43c564a9cf5bf011e3b1be8e8aa205cb69a19b23df1d08bbad29c39e9"
+  },
+  "postprocessing_changes": [
+    {
+      "file": "code\\render_results.py",
+      "reason": "Set shared y-axis maximum from both DNA sources to prevent clipping higher ecoli memory values. Measurement code and raw results unchanged.",
+      "sha256_before": "3efa256264348fc6d8da56198a54cd6d391853c260a0e908bb6987b0bec924af",
+      "sha256_after": "8a0c4f6fbb1b1d9dbc6c725ee0d3112b09747fb250ef38967feb50ac4cf17c87"
+    }
+  ],
+  "package_code_sha256": {
+    "code/kmp_timed.py": "1fca30d999deb16985caeb59d127eb5879a2571a89cfea2599afba8fbd351cf1",
+    "code/render_results.py": "9e5df8c9e9969dc8481fbbcb16e9dc3b7822424469a8a0a59750776990690a2c",
+    "code/run_benchmark.py": "e524a41bbe1ad9a053a5e0bb0affe8d2a779ffa66d34ff6f9fb9f5659f7ca488",
+    "code/verify_results.py": "2a3b22da820c8764d66958fc23dd56a8c387ef24e993d8c976ac84aafa3103a9",
+    "originals/boyer_moore.py": "07b88e4917b87f4a654839e0e23af5edeea9de541cc05eefd30310533b3ce874",
+    "originals/kmp.py": "94c97a4c245f27c8cd1e16e9db1494c52f6325680e9f1bb778f6dce48401f37a",
+    "originals/naive.py": "994d4ed43c564a9cf5bf011e3b1be8e8aa205cb69a19b23df1d08bbad29c39e9"
+  }
+}

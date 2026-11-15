@@ -1,0 +1,500 @@
+{
+  "created_at": "2026-11-04T12:40:21.768312+09:00",
+  "files": [
+    {
+      "snapshot": "originals/naive.py",
+      "sha256": "994d4ed43c564a9cf5bf011e3b1be8e8aa205cb69a19b23df1d08bbad29c39e9",
+      "bytes": 1457
+    },
+    {
+      "snapshot": "originals/kmp.py",
+      "sha256": "94c97a4c245f27c8cd1e16e9db1494c52f6325680e9f1bb778f6dce48401f37a",
+      "bytes": 1930
+    },
+    {
+      "snapshot": "originals/boyer_moore.py",
+      "sha256": "07b88e4917b87f4a654839e0e23af5edeea9de541cc05eefd30310533b3ce874",
+      "bytes": 3287
+    },
+    {
+      "snapshot": "inputs/실험 2/text_random_n1000000.txt",
+      "sha256": "92b6fd357f691ee20ee49a304cc67923182586cbb386e5b868cb03c90f0c59ea",
+      "bytes": 1000000
+    },
+    {
+      "snapshot": "inputs/실험 2/text_ecoli_n1000000.txt",
+      "sha256": "d51bbf6b29a23f043b0d7d7e7d7a816d8971a63d351f70e4e091aecacd32cfb8",
+      "bytes": 1000000
+    },
+    {
+      "snapshot": "inputs/실험 1/text_ecoli_n1000000.txt",
+      "sha256": "d51bbf6b29a23f043b0d7d7e7d7a816d8971a63d351f70e4e091aecacd32cfb8",
+      "bytes": 1000000
+    },
+    {
+      "snapshot": "inputs/실험 1/text_ecoli_n100000.txt",
+      "sha256": "6555bc1b221faa3fe23fe212186386e096fd98416e439cc6d408ccbae38519d0",
+      "bytes": 100000
+    },
+    {
+      "snapshot": "inputs/실험 1/text_ecoli_n500000.txt",
+      "sha256": "97c1dadb7150058c01afcf73fc948884c5aa7caeecbbebaa83b6e833e2dba31d",
+      "bytes": 500000
+    },
+    {
+      "snapshot": "inputs/실험 1/text_ecoli_n4000000.txt",
+      "sha256": "d51dafa0ace01ca6c27d5b3eace08a3aea7e17016e77c9e7b9d55fb60234d6bb",
+      "bytes": 4000000
+    },
+    {
+      "snapshot": "inputs/실험 1/text_random_n1000000.txt",
+      "sha256": "92b6fd357f691ee20ee49a304cc67923182586cbb386e5b868cb03c90f0c59ea",
+      "bytes": 1000000
+    },
+    {
+      "snapshot": "inputs/실험 1/text_random_n100000.txt",
+      "sha256": "6cb0dd018025c147f031ca632dc9f782bce8045821ff30504d5349edfd0c23bd",
+      "bytes": 100000
+    },
+    {
+      "snapshot": "inputs/실험 1/text_ecoli_n2000000.txt",
+      "sha256": "15a53e937a6eab1640b1575bcc5e197374ac6b54ce4956d355348ac1ed1f2ab1",
+      "bytes": 2000000
+    },
+    {
+      "snapshot": "inputs/실험 1/text_random_n4000000.txt",
+      "sha256": "6f932936269b01da1b66046d11b91ccf303368fc1145fb1029220a2d7cacaf5d",
+      "bytes": 4000000
+    },
+    {
+      "snapshot": "inputs/실험 1/text_random_n500000.txt",
+      "sha256": "c71b8338f6a2bef5b9e072875e8ba53567345623603161117aca3e84ffb6397c",
+      "bytes": 500000
+    },
+    {
+      "snapshot": "inputs/실험 1/text_random_n2000000.txt",
+      "sha256": "b632f94d4e06ae556d93a000e9c53c1174b3b7161757a815046711a712f6abc4",
+      "bytes": 2000000
+    },
+    {
+      "snapshot": "inputs/실험 3/text_repeat_A_n10000.txt",
+      "sha256": "85757d9ef5868bb53472a6be8d81d1e3c398546b69b107141ad336053c40cb54",
+      "bytes": 10000
+    },
+    {
+      "snapshot": "inputs/실험 3/text_repeat_A_n70000.txt",
+      "sha256": "b80935d45c7fcb544ad1b841005e50e452239aef65d3e0b6c07976a50f356c69",
+      "bytes": 70000
+    },
+    {
+      "snapshot": "inputs/실험 3/text_repeat_AC_n20000.txt",
+      "sha256": "599a13dd5a22404261bc648992d7918ac97a904062b04213579b664b9f70a81e",
+      "bytes": 20000
+    },
+    {
+      "snapshot": "inputs/실험 3/text_repeat_AC_n10000.txt",
+      "sha256": "1474a74483a4a106878d25582597b16df321c806526cfdbfcc565f46cae8efa4",
+      "bytes": 10000
+    },
+    {
+      "snapshot": "inputs/실험 3/text_repeat_A_n20000.txt",
+      "sha256": "c86f210e0efad769d6ade6f924a85200be38917fa99e33b360aa24535716359b",
+      "bytes": 20000
+    },
+    {
+      "snapshot": "inputs/실험 3/text_repeat_ACGT_n70000.txt",
+      "sha256": "4b82bd06d5db578318379931e7228d79316937c484d785deced5130eaf9915a8",
+      "bytes": 70000
+    },
+    {
+      "snapshot": "inputs/실험 3/text_repeat_ACGT_n20000.txt",
+      "sha256": "0ef13df3c4e36d1fc65ce4f1ba95be2747faccebb11e634050c8fa8b25bca26d",
+      "bytes": 20000
+    },
+    {
+      "snapshot": "inputs/실험 3/text_repeat_ACGT_n10000.txt",
+      "sha256": "a4c2e1cdc03c917a8923fdc78e84ce943f458bbf86adc1e15e9ef0f7bf1c6696",
+      "bytes": 10000
+    },
+    {
+      "snapshot": "inputs/실험 3/text_repeat_AC_n70000.txt",
+      "sha256": "c4ac1e70e624b519105d82040f5155cd03140ddde855f048a166669b0732b612",
+      "bytes": 70000
+    },
+    {
+      "snapshot": "inputs/실험 3/패턴/pattern_ACGT_end_mismatch.txt",
+      "sha256": "3395509149c8d8e231e658abfbf53240e201533766fcafb457f50d6ae899c413",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 3/패턴/pattern_ACGT_start_mismatch.txt",
+      "sha256": "e1a34b2f5496ca59f2eefd720b6e4468bd6fb569691758587fb2f31e91d23a51",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 3/패턴/pattern_ACGT_many_matches.txt",
+      "sha256": "5b63fe1b91add0ff274cb0d3449e1abf53775cd5fc7b330dc76f9a99cc4cbffe",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 3/패턴/pattern_AC_end_mismatch.txt",
+      "sha256": "80162e474ca0c6b6e46c31857b6241caeba4ee3a53a7daaf5d357cb375ba0e40",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 3/패턴/pattern_AC_start_mismatch.txt",
+      "sha256": "dc68c5d0568241602b475853102e409a1844f0fca7481a75fd5269c99045c0dd",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 3/패턴/pattern_A_end_mismatch.txt",
+      "sha256": "c0e5dbf295b1817381d8cfdb5fa8b88595503409098360d41df9a624c5bbe6f4",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 3/패턴/pattern_AC_many_matches.txt",
+      "sha256": "8ae64f4db7a78eeb2e50feadaa17090ec09f7d5b25822172e2cf7d394910d0d5",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 3/패턴/pattern_A_start_mismatch.txt",
+      "sha256": "d44e0b5eb3bd17793ebe57eb41b6c05d629299513682c188921a8b0653e9d1ee",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 3/패턴/pattern_A_many_matches.txt",
+      "sha256": "22a48051594c1949deed7040850c1f0f8764537f5191be56732d16a54c1d8153",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 1/패턴/pattern_ecoli_p01_m32.txt",
+      "sha256": "f0ef03c39dcac057b0a31b8265f2b51a082bc4b4b09f3a0db56cf7fd1b051a8e",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 1/패턴/pattern_ecoli_p03_m32.txt",
+      "sha256": "ff75660f3137271521f40cc294cd3320c913da6b1ffac9560d2a9b56cfcc32dd",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 1/패턴/pattern_ecoli_p02_m32.txt",
+      "sha256": "9afdc9b7a1d3bae124fe1e232e369c017f1df9baaa7a51c6001b9e40ef7682f0",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 1/패턴/pattern_random_p01_m32.txt",
+      "sha256": "47143078e01211dd73399ac707fb75c2a19766d203a6dcf73f4f1efabfa7f01c",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 1/패턴/pattern_random_p02_m32.txt",
+      "sha256": "b66cff3c4ec49567abedd5ee0b6d7e5c16ec37195037e5b52c61b6607e2e552b",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 1/패턴/pattern_random_p03_m32.txt",
+      "sha256": "a4203f8b68f014fb0a4049b2f96481d1a549c5aa93066243fd95d80add235351",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p01_m1000.txt",
+      "sha256": "69d852aa3d80a152f829331485d4dc4541ca6a024327fcc6212b955d6324319b",
+      "bytes": 1000
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p01_m16.txt",
+      "sha256": "0088877918acfd10368414d7c2fe82fa0f4e988266d61265a372f3aba033b4b5",
+      "bytes": 16
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p01_m256.txt",
+      "sha256": "d86a18590170d218da4ce0aae2c1695dec01bfbe67feabeb454a2e63b6c05ef3",
+      "bytes": 256
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p01_m128.txt",
+      "sha256": "1cfd669e3927b9cb37d8eb921b10a3582416e03180dee00d5f794f177cbc0ae5",
+      "bytes": 128
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p01_m4.txt",
+      "sha256": "e0eeebfa5ea77c50a3355b5c094716b7601e2015ffbd667d120e70a5659bdfe4",
+      "bytes": 4
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p01_m32.txt",
+      "sha256": "f0ef03c39dcac057b0a31b8265f2b51a082bc4b4b09f3a0db56cf7fd1b051a8e",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p01_m8.txt",
+      "sha256": "834ecc6a6f002bdebcb78d6b3c26ef6de95323af7b0059b10fefa13403bfd612",
+      "bytes": 8
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p01_m64.txt",
+      "sha256": "8283c63b6188a6652e9f2cb48bb8cc83dfdeb1dc54d11e62a14e194068b24654",
+      "bytes": 64
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p01_m512.txt",
+      "sha256": "cbd1401febac304af06db2da5aa62521400f4342e30f9736bfa4bd605c8ec67b",
+      "bytes": 512
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p02_m128.txt",
+      "sha256": "b75babed5d6866a49e8abb515d4bad1dd9aa106d54ab66c90fc7a664c6b8de48",
+      "bytes": 128
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p02_m1000.txt",
+      "sha256": "4626cbda4cf27b33c4a42b694d445c97b418205a27fe83e5b359bb6cefe1c135",
+      "bytes": 1000
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p02_m16.txt",
+      "sha256": "e2182ab768621cae703a2f80ebd953a77c778929b425660a99f585a1c6bf8a4d",
+      "bytes": 16
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p02_m256.txt",
+      "sha256": "13b5b3f0e5ba877b5df49e2a711f8574836fbc7c8610aacbce2ee66db1a398f7",
+      "bytes": 256
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p02_m32.txt",
+      "sha256": "9afdc9b7a1d3bae124fe1e232e369c017f1df9baaa7a51c6001b9e40ef7682f0",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p02_m4.txt",
+      "sha256": "6cc3278a0fcae5f9762e5a3c121b8fd2310f6ad41debcec5092d359ab324a2c0",
+      "bytes": 4
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p02_m64.txt",
+      "sha256": "ad064176cd3443ea16cff0e8786a026b330b2186f430bef61258f1190078a22c",
+      "bytes": 64
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p02_m512.txt",
+      "sha256": "d52792e43c05e1cbf478aa63ae70e048f20519a4eb97a22248893f57a375bf0d",
+      "bytes": 512
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p03_m1000.txt",
+      "sha256": "e419192384a0f73406890e36031cee466055f616ae5c09b6ca3d7a6b40b2789e",
+      "bytes": 1000
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p02_m8.txt",
+      "sha256": "76d46bbd8cfd5e7d8e126cc8400a65e9f00537ab31d9311ac3b2c98279a2a2ba",
+      "bytes": 8
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p03_m16.txt",
+      "sha256": "0322bd5d6c1fb90499f9d77f4d39c61cbaaabe6fc1eadd4aabcbfde202003433",
+      "bytes": 16
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p03_m256.txt",
+      "sha256": "30f7620a3e536f41ca7ba8fc5c2187a9ed58d97fb5ba31da899717321350a9e7",
+      "bytes": 256
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p03_m128.txt",
+      "sha256": "b52f05be246937c08b53b9b45f98122e239e4b4b1c0fc01c988a9296aa8e0b7b",
+      "bytes": 128
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p03_m32.txt",
+      "sha256": "ff75660f3137271521f40cc294cd3320c913da6b1ffac9560d2a9b56cfcc32dd",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p03_m4.txt",
+      "sha256": "47e2538389d1b127a241da9e5f8612d42728517b01a4b95208d183fb91381751",
+      "bytes": 4
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p03_m64.txt",
+      "sha256": "c574489bad288b2187eee31dbafdb6f15c4e5e25b3b72e9639fab9ae8e54bf07",
+      "bytes": 64
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p03_m512.txt",
+      "sha256": "250f4b68e097ea8ec6f391e9517a40da0bfed046835c719caf10decfcaac8a3d",
+      "bytes": 512
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p01_m1000.txt",
+      "sha256": "f910230d1521037345d9cb49e1f1fcab334fcd65c4043279fd2d0e45318004e5",
+      "bytes": 1000
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_ecoli_p03_m8.txt",
+      "sha256": "5f790e687b3a93b13a1523621ef55dc0707c312a5b40438edb709442e9843eee",
+      "bytes": 8
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p01_m16.txt",
+      "sha256": "022cc38bed28a4d6377883eb93fcfc3d1f9cded1d414714911dd07637908f9cb",
+      "bytes": 16
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p01_m128.txt",
+      "sha256": "46cadc29a079e6bf4c031c18cc673b26771850d7d32a28da7d5979e81f42733a",
+      "bytes": 128
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p01_m32.txt",
+      "sha256": "47143078e01211dd73399ac707fb75c2a19766d203a6dcf73f4f1efabfa7f01c",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p01_m256.txt",
+      "sha256": "55a0ebefd1cdcf7dad7620329a874436303f3df0321f6a7a704db919357d2d7f",
+      "bytes": 256
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p01_m512.txt",
+      "sha256": "67950e748af516f779fc8b82971b644522775fca29c61e6ad7026fff3c36fcd3",
+      "bytes": 512
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p01_m64.txt",
+      "sha256": "3d7b8ab228da849191f3def2019c144861d7af333048cd3a83850b34246fc25c",
+      "bytes": 64
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p01_m4.txt",
+      "sha256": "77766e9aa430b626e4b35ee652f747b8c9938a550d827eb44ea99f004f3e1806",
+      "bytes": 4
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p01_m8.txt",
+      "sha256": "a579f4cc852731c7be22a40698a58ba4c3e283e840d4199d82cd2d746832c8f2",
+      "bytes": 8
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p02_m1000.txt",
+      "sha256": "6ca2363dfc8856db8d21aa13658a81f62fafe6fa401d0d7d953ee2445d37e9ce",
+      "bytes": 1000
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p02_m128.txt",
+      "sha256": "fd2e43977fee5888c06bac27fa5906d48295043c164b88df5dc4b35beeb27003",
+      "bytes": 128
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p02_m16.txt",
+      "sha256": "b622e60794e9356876f7af9d39ea56aa39450877669fcb97063e7f8c14814d89",
+      "bytes": 16
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p02_m256.txt",
+      "sha256": "a9591190d2df186830da8843ed91e36acc3d9974505afd801cc731624a46e895",
+      "bytes": 256
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p02_m32.txt",
+      "sha256": "b66cff3c4ec49567abedd5ee0b6d7e5c16ec37195037e5b52c61b6607e2e552b",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p02_m4.txt",
+      "sha256": "73ebecc507fe50265dbc297e02cde24a63ef6763e3044dc0c2b77bef51565bd0",
+      "bytes": 4
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p02_m64.txt",
+      "sha256": "b1c94c0ad8d571363b930eb219f1040bbd4aee71b4e8ef9b6af25031f12321c8",
+      "bytes": 64
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p02_m512.txt",
+      "sha256": "c32cd82dce06a570dc637dd3fe7d84252fbaf16e26a9577721a5cf6a07cbdbb6",
+      "bytes": 512
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p03_m128.txt",
+      "sha256": "7d4aacea0ace5bd40e56ddef17e6214469b834e60c87933f61350b8ec94f93fe",
+      "bytes": 128
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p03_m1000.txt",
+      "sha256": "eef4952d5c83fa750603432e07476251bf3de1ca33b88e590839ccabe66dfffd",
+      "bytes": 1000
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p02_m8.txt",
+      "sha256": "57feeb5b4cd0491d677c500659253bb9d38b3a47317c89d925cb509695846409",
+      "bytes": 8
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p03_m16.txt",
+      "sha256": "6b5f25d72b4980b1d5387ef74e651842c4c4573f24c0b055dd5dbda0a15567c9",
+      "bytes": 16
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p03_m256.txt",
+      "sha256": "e2b796eebd00b048491029a65f54d515a3957ccef079fc88ada2b0c381e1be58",
+      "bytes": 256
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p03_m4.txt",
+      "sha256": "ef1af8ff246b9f66043139d178e5af37c547eac90779a6401032aec46cfa0275",
+      "bytes": 4
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p03_m512.txt",
+      "sha256": "c77434d50ba60e2e96cb69b6de294fcbdd8a030590364b3c034fbf2607d1329d",
+      "bytes": 512
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p03_m32.txt",
+      "sha256": "a4203f8b68f014fb0a4049b2f96481d1a549c5aa93066243fd95d80add235351",
+      "bytes": 32
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p03_m8.txt",
+      "sha256": "f4300c28bb50dec83acd58da3f6c34616bce8f3a310147faa3b2831e4bbff2b2",
+      "bytes": 8
+    },
+    {
+      "snapshot": "inputs/실험 2/패턴/pattern_random_p03_m64.txt",
+      "sha256": "c825ed5d910476ddd58f60ef5583584d53211986396f2ab46a804bf532dba0f0",
+      "bytes": 64
+    },
+    {
+      "snapshot": "reference/실험 1/cases.json",
+      "sha256": "fa94b11bdee147505ffcf7c2fb756d046d466ccaf65f56535a83a9b778693499",
+      "bytes": 13758
+    },
+    {
+      "snapshot": "reference/실험 1/expected_positions.json",
+      "sha256": "816812a726ad30dec87560f5f08756a21a97d4a3d37c3dc5016c5ada9c62074d",
+      "bytes": 1486
+    },
+    {
+      "snapshot": "reference/실험 2/cases.json",
+      "sha256": "e78925a8f4a1f9ac1bfeea0b39fd9a65cca91af03190fb56741d731209b711b7",
+      "bytes": 35409
+    },
+    {
+      "snapshot": "reference/실험 2/expected_positions.json",
+      "sha256": "76fa5622aa4a1c35a31d4bed6b31c8ae0c4d33cd710785929345d7d17f876a5a",
+      "bytes": 306889
+    },
+    {
+      "snapshot": "reference/실험 3/cases.json",
+      "sha256": "a11e10bace6d8908ae0254cd6c0e8160badb686c6daa58a2b59bb8f87679e2f1",
+      "bytes": 12776
+    },
+    {
+      "snapshot": "reference/실험 3/expected_positions.json",
+      "sha256": "47a96cd0ec56b658f35ae883cb0bab918dc2d5f9cf60415d1cd42a282549f250",
+      "bytes": 1865968
+    }
+  ]
+}

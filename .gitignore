@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.pytest_cache/
+coverage.xml
+.coverage
+build/
+dist/
+*.egg-info/
+# Keep the archived experiment; ignore future local measurements by default.
+results/*/
+!results/20261104/
+!results/20261104/**
+# Temporary regenerated datasets.
+reproduction/

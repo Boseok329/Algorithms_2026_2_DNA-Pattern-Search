@@ -1,0 +1,143 @@
+{
+  "basis": "Existing D1 DNA pattern search project; integrated run 2026-11-04",
+  "records": [
+    {
+      "file": "code/kmp_timed.py",
+      "source_sha256": "1fca30d999deb16985caeb59d127eb5879a2571a89cfea2599afba8fbd351cf1",
+      "package_sha256": "1fca30d999deb16985caeb59d127eb5879a2571a89cfea2599afba8fbd351cf1",
+      "changed": false
+    },
+    {
+      "file": "code/render_results.py",
+      "source_sha256": "8a0c4f6fbb1b1d9dbc6c725ee0d3112b09747fb250ef38967feb50ac4cf17c87",
+      "package_sha256": "9e5df8c9e9969dc8481fbbcb16e9dc3b7822424469a8a0a59750776990690a2c",
+      "changed": true
+    },
+    {
+      "file": "code/run_benchmark.py",
+      "source_sha256": "1799d372442b70b369b1e160b20f6faad0c6797321008ecc29173201793d5b3e",
+      "package_sha256": "e524a41bbe1ad9a053a5e0bb0affe8d2a779ffa66d34ff6f9fb9f5659f7ca488",
+      "changed": true
+    },
+    {
+      "file": "code/verify_results.py",
+      "source_sha256": "3eaa4d076c34f6756da3fa0e2bb4747dedfdfa5b85ec2d89244513e229c89084",
+      "package_sha256": "2a3b22da820c8764d66958fc23dd56a8c387ef24e993d8c976ac84aafa3103a9",
+      "changed": true
+    },
+    {
+      "file": "data/NC_000913.3_metadata.json",
+      "source_sha256": "0bbcf2adcec7f3f3a3acdbe10787a59ef15cbab3d03589fb8a8c4be0919c63a0",
+      "package_sha256": "e67d0f1708a1de29dc227ae9ba1f3c1605e835c0ce9413ef18be96e13bd69dc5",
+      "changed": true
+    },
+    {
+      "file": "data/NC_000913.3_sequence.txt",
+      "source_sha256": "e999dceccb76562d40e49a10d9e6d4cf1c05d184f4f80b92bb32d4a2420c11d0",
+      "package_sha256": "e999dceccb76562d40e49a10d9e6d4cf1c05d184f4f80b92bb32d4a2420c11d0",
+      "changed": false
+    },
+    {
+      "file": "dataset_tools/dataset_common.py",
+      "source_sha256": "2377cf3d1224d6840608dd13e4dcbe3d864e953f0b409cc34346c79369e09ebf",
+      "package_sha256": "2377cf3d1224d6840608dd13e4dcbe3d864e953f0b409cc34346c79369e09ebf",
+      "changed": false
+    },
+    {
+      "file": "dataset_tools/experiment_1.py",
+      "source_sha256": "d012ec772b64e7d0e8e1805ffe14714b103dd16529d01bf55b28e1a5c0145564",
+      "package_sha256": "d012ec772b64e7d0e8e1805ffe14714b103dd16529d01bf55b28e1a5c0145564",
+      "changed": false
+    },
+    {
+      "file": "dataset_tools/experiment_2.py",
+      "source_sha256": "25d59da47b444da9dbf867e40cd7257de5849fc8478b355dd6895d13db6a0de2",
+      "package_sha256": "25d59da47b444da9dbf867e40cd7257de5849fc8478b355dd6895d13db6a0de2",
+      "changed": false
+    },
+    {
+      "file": "dataset_tools/experiment_3.py",
+      "source_sha256": "e0f0eedefdd91cd43febecec53f10268c5a3ab88a840973dfdeeb867bcf17c2c",
+      "package_sha256": "e0f0eedefdd91cd43febecec53f10268c5a3ab88a840973dfdeeb867bcf17c2c",
+      "changed": false
+    },
+    {
+      "file": "dataset_tools/experiment_descriptions.json",
+      "source_sha256": "d16ac7f2a8695918d3a4d0142aaabcbf75d01282b99538cdff6f0cde5f9a75ff",
+      "package_sha256": "d16ac7f2a8695918d3a4d0142aaabcbf75d01282b99538cdff6f0cde5f9a75ff",
+      "changed": false
+    },
+    {
+      "file": "dataset_tools/export_shared_datasets.py",
+      "source_sha256": "52b02c5305953a5533d25051944b92fef171375d6d0e44ad58cf93b08b33fdda",
+      "package_sha256": "52b02c5305953a5533d25051944b92fef171375d6d0e44ad58cf93b08b33fdda",
+      "changed": false
+    },
+    {
+      "file": "dataset_tools/generate_datasets.py",
+      "source_sha256": "2545d0e46f29b3af6a906ab2879e73f7710d0fb4a2cb6842ac36c1ebc95f216a",
+      "package_sha256": "2545d0e46f29b3af6a906ab2879e73f7710d0fb4a2cb6842ac36c1ebc95f216a",
+      "changed": false
+    },
+    {
+      "file": "dataset_tools/share_descriptions.json",
+      "source_sha256": "4ce1a8084596ebb71c80f37254e09fc63257308b48102a7bd8159839a83c56eb",
+      "package_sha256": "4ce1a8084596ebb71c80f37254e09fc63257308b48102a7bd8159839a83c56eb",
+      "changed": false
+    },
+    {
+      "file": "dataset_tools/verify_datasets.py",
+      "source_sha256": "848d19ba5bcc4c820c3757e3796ed437f7742b0a15713098387e37b42879ffe2",
+      "package_sha256": "848d19ba5bcc4c820c3757e3796ed437f7742b0a15713098387e37b42879ffe2",
+      "changed": false
+    },
+    {
+      "file": "originals/boyer_moore.py",
+      "source_sha256": "07b88e4917b87f4a654839e0e23af5edeea9de541cc05eefd30310533b3ce874",
+      "package_sha256": "07b88e4917b87f4a654839e0e23af5edeea9de541cc05eefd30310533b3ce874",
+      "changed": false
+    },
+    {
+      "file": "originals/kmp.py",
+      "source_sha256": "94c97a4c245f27c8cd1e16e9db1494c52f6325680e9f1bb778f6dce48401f37a",
+      "package_sha256": "94c97a4c245f27c8cd1e16e9db1494c52f6325680e9f1bb778f6dce48401f37a",
+      "changed": false
+    },
+    {
+      "file": "originals/naive.py",
+      "source_sha256": "994d4ed43c564a9cf5bf011e3b1be8e8aa205cb69a19b23df1d08bbad29c39e9",
+      "package_sha256": "994d4ed43c564a9cf5bf011e3b1be8e8aa205cb69a19b23df1d08bbad29c39e9",
+      "changed": false
+    },
+    {
+      "file": "results/20261104/conditions.csv",
+      "source_sha256": "37a8c1aa9596f9481ebfbcd185ad23c42154186b219823b6fee9406cdd16e52f",
+      "package_sha256": "37a8c1aa9596f9481ebfbcd185ad23c42154186b219823b6fee9406cdd16e52f",
+      "changed": false
+    },
+    {
+      "file": "results/20261104/metadata.json",
+      "source_sha256": "b864a71bb54920fd16e5d1c5f4d58fd67f1a8d0dc680d09e8869e07003419a78",
+      "package_sha256": "7cbdd187418b9dfd7c9e3b7ba6a018f2abec6ced2610df8d5f0378962ac2a76e",
+      "changed": true
+    },
+    {
+      "file": "results/20261104/runs.csv",
+      "source_sha256": "317e15e1e6359d0bc794a31c1eae37d67d9bb211c3628530820418e9fc6fb96f",
+      "package_sha256": "317e15e1e6359d0bc794a31c1eae37d67d9bb211c3628530820418e9fc6fb96f",
+      "changed": false
+    },
+    {
+      "file": "results/20261104/summary.csv",
+      "source_sha256": "a43aa645633a0f686a1e68c259a87a0e9ab8901b1006ee3abe1521b5019920d9",
+      "package_sha256": "a43aa645633a0f686a1e68c259a87a0e9ab8901b1006ee3abe1521b5019920d9",
+      "changed": false
+    },
+    {
+      "file": "snapshot_manifest.json",
+      "source_sha256": "406dd8c2d393b4258b1b25e218fe804ee0773444034abc82873986a187197c28",
+      "package_sha256": "181daba1a287a1383b8f64ba11f0bc8f8c9aa89d6d28a4f885995120c71ee90b",
+      "changed": true
+    }
+  ]
+}

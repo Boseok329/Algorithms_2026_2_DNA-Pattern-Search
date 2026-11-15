@@ -1,0 +1,6 @@
+# Preserve hashes across Windows/macOS/Linux checkouts, including mixed CRLF/LF.
+* -text
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+requirements.txt text eol=lf
